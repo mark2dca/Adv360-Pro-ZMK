@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5               &tog 1                                                                &mo 3  &kp N6   &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
-   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T                &none                                                                &none   &kp Y    &kp U      &kp I     &kp O     &kp P   &kp BSLH
-   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G                &none  &kp LCTRL  &kp LALT   &none   &none  &kp LEFT  &kp RIGHT      &none   &kp H    &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
- &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                &none      &none  &kp HOME   &none   &none    &kp UP      &none      &none   &kp N    &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp SPACE   &kp BSPC   &kp END                  &kp DOWN  &kp ENTER  &kp SPACE          &kp DEL   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+ &kp GRAVE    &kp N1    &kp N2   &kp N3   &kp N4  &kp N5              &kp ESC                                                           &kp EQUAL  &kp N6   &kp N7       &kp N8         &kp N9    &kp N0  &kp MINUS
+   &kp TAB     &kp Q     &kp W    &kp E    &kp R   &kp T              &kp DEL                                                            &kp BSPC   &kp Y    &kp U        &kp I          &kp O     &kp P   &kp BSLH
+  &kp CAPS     &kp A     &kp S    &kp D    &kp F   &kp G               &kp F7  &kp LBKT  &kp RBKT   &none   &none  &kp LEFT  &kp RIGHT    &kp F10   &kp H    &kp J        &kp K          &kp L  &kp SEMI    &kp SQT
+ &kp LSHFT     &kp Z     &kp X    &kp C    &kp V   &kp B                &none     &none     &mo 3   &none   &none    &kp UP      &none      &none   &kp N    &kp M    &kp COMMA        &kp DOT  &kp FSLH  &kp RSHFT
+ &kp LCTRL  &kp LALT  &kp HOME  &kp END  &kp INS                    &kp SPACE  &kp BSPC     &mo 2                  &kp DOWN  &kp ENTER  &kp SPACE          &kp DEL  &kp PAGE_UP  &kp PAGE_DOWN  &kp LALT  &kp RCTRL
             >;
         };
 
