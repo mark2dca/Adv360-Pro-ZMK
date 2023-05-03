@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
- &trans  &kp F1  &kp F2  &kp F3   &kp F4  &kp F5                   &tog 1                                                               &mo 3  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
- &trans  &trans  &trans  &trans   &trans  &trans            &kp RIGHT_WIN                                                     &kp PRINTSCREEN  &trans  &trans  &trans  &trans   &trans  &kp F12
- &trans  &trans  &trans  &trans   &trans  &trans                &kp ENTER  &trans  &trans   &none   &none  &trans     &trans        &kp LC(C)  &trans  &trans  &trans  &trans   &trans   &trans
- &trans  &trans  &trans  &trans   &trans  &trans                    &none   &none   &mo 3   &none   &none  &trans      &none            &none  &trans  &trans  &trans  &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &kp INS                           &trans  &trans   &mo 2                  &trans  &kp LC(Z)        &kp LC(V)          &trans  &trans  &trans   &trans   &trans
+ &trans  &kp F1  &kp F2  &kp F3   &kp F4  &kp F5                   &tog 1                                                               &mo 3  &kp F6     &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+ &trans  &trans  &trans  &trans   &trans  &trans            &kp RIGHT_WIN                                                     &kp PRINTSCREEN  &trans     &trans  &trans  &trans   &trans  &kp F12
+ &trans  &trans  &trans  &trans   &trans  &trans                &kp ENTER  &trans  &trans   &none   &none  &trans     &trans        &kp LC(C)  &trans     &trans  &trans  &trans   &trans   &trans
+ &trans  &trans  &trans  &trans   &trans  &trans                    &none   &none   &mo 3   &none   &none  &trans      &none            &none  &trans     &trans  &trans  &trans   &trans   &trans
+ &trans  &trans  &trans  &trans  &kp INS                           &trans  &trans   &mo 2                  &trans  &kp LC(Z)        &kp LC(V)          &kp LC(X)  &trans  &trans   &trans   &trans
             >;
         };
 
